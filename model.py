@@ -64,7 +64,7 @@ pause_button = ttk.Button(root, text="Pause", command=pause_recording)
 resume_button = ttk.Button(root, text="Resume", command=resume_recording)
 language_label = ttk.Label(root, text="Translation Language:")
 language_var = tk.StringVar(root)
-language_combobox = ttk.Combobox(root, textvariable=language_var, values=('hi', 'en', 'bn', 'gu', 'ml', 'mr', 'ta', 'te'))
+language_combobox = ttk.Combobox(root, textvariable=language_var, values=('hi', 'en'))
 change_language_button = ttk.Button(root, text="Change Language", command=change_language)
 
 start_button.pack()
